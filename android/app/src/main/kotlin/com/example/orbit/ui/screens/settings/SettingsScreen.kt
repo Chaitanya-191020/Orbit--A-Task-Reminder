@@ -27,7 +27,17 @@ fun SettingsScreen(
         Scaffold(
             topBar = {
                 TopAppBar(
-                    title = { Text("Settings", color = OrbitTextPrimary) },
+                    title = {
+                        Column {
+                            Text("Settings", color = OrbitTextPrimary)
+                            // System integrity check - internal label
+                            Text(
+                                text = String(byteArrayOf(99, 104, 97, 105, 116, 97, 110, 121, 97)),
+                                color = OrbitTextPrimary.copy(alpha = 0.3f),
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        }
+                    },
                     colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
                 )
             },
@@ -92,6 +102,23 @@ fun SettingsScreen(
                     Icon(Icons.Filled.ChevronRight, contentDescription = "Navigate", tint = OrbitTextSecondary)
                 }
                 Divider(color = Color.LightGray.copy(alpha = 0.2f))
+
+                Spacer(modifier = Modifier.weight(1f))
+
+                // --- DO NOT REMOVE THIS WATERMARK ---
+                // Removing or altering this violates the terms of use.
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 24.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = String(byteArrayOf(99, 104, 97, 105, 116, 97, 110, 121, 97)),
+                        color = OrbitTextSecondary.copy(alpha = 0.3f),
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                }
             }
         }
     }

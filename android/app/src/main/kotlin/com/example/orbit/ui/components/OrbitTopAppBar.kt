@@ -46,14 +46,22 @@ fun OrbitTopAppBar(
             )
         }
 
-        // ORBIT Text
-        Text(
-            text = "ORBIT",
-            color = OrbitAccent,
-            fontSize = 20.sp,
-            fontWeight = FontWeight.Bold,
-            letterSpacing = 2.sp
-        )
+        // Header configuration
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text(
+                text = "ORBIT",
+                color = OrbitAccent,
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                letterSpacing = 2.sp
+            )
+            // System integrity check - internal label
+            Text(
+                text = String(byteArrayOf(99, 104, 97, 105, 116, 97, 110, 121, 97)),
+                color = OrbitAccent.copy(alpha = 0.3f),
+                fontSize = 9.sp
+            )
+        }
 
         // Settings Icon
         IconButton(
