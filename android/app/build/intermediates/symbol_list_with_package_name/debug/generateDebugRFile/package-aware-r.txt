@@ -1,0 +1,23 @@
+com.example.orbit
+color ic_launcher_background
+drawable bg_circle_brown
+drawable bg_circle_gray
+drawable bg_notification_pill
+drawable ic_alarm_orange
+drawable ic_close_white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_launcher_foreground_inset
+drawable ic_zzz
+id btn_dismiss
+id btn_snooze
+id tv_alarm_time
+layout notification_alarm_custom
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string accessibility_service_description
+string app_name
+style Theme_Orbit
+style Theme_Orbit_FullScreen
+xml accessibility_service_config

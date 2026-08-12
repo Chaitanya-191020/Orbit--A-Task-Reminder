@@ -1,0 +1,6 @@
+- `[x]` Cleanup redundant `android/app/gradle` folder
+- `[x]` Upgrade Dagger Hilt to 2.52 in top-level `build.gradle.kts`
+- `[x]` Remove legacy `kotlinOptions` block from `app/build.gradle.kts`
+- `[x]` Update Dagger Hilt dependencies to 2.52 in `app/build.gradle.kts`
+- `[x]` Remove standalone `kotlin-gradle-plugin-api` jar
+- `[ ]` Verify Gradle sync

@@ -1,0 +1,4 @@
+- [ ] Stabilize `OrbitNavGraph.kt` with solid background
+- [ ] Fix `MainActivity.kt` Surface color
+- [ ] Simplify `HomeScreen.kt` background
+- [ ] Verify fix with screenshot

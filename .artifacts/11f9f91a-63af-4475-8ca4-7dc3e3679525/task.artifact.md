@@ -1,0 +1,3 @@
+- `[x]` Add `org.jetbrains.kotlin.android` to root `build.gradle.kts`
+- `[x]` Apply `org.jetbrains.kotlin.android` and add `kotlinOptions` to `:app/build.gradle.kts`
+- `[x]` Verify by asking user to sync Gradle

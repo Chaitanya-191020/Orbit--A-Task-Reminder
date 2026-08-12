@@ -1,0 +1,7 @@
+- `[ ]` Create `android/app/src/main/res` directory structure
+- `[ ]` Create `drawable/ic_launcher_background.xml`
+- `[ ]` Create `drawable/ic_launcher_foreground.xml`
+- `[ ]` Create `mipmap-anydpi-v26/ic_launcher.xml`
+- `[ ]` Create `mipmap-anydpi-v26/ic_launcher_round.xml`
+- `[ ]` Create `values/themes.xml`
+- `[ ]` Verify build with `./gradlew assembleDebug`

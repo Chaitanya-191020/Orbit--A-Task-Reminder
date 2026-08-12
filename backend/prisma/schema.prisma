@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Alarm {
+  id                      String    @id @default(uuid())
+  label                   String
+  alarm_time              String    // e.g., "07:30"
+  repeat_days             String    // Comma-separated or JSON array, e.g., "1,2,3,4,5"
+  sound_uri               String?
+  vibrate                 Boolean   @default(true)
+  snooze_duration_minutes Int       @default(5)
+  is_enabled              Boolean   @default(true)
+  created_at              DateTime  @default(now())
+  updated_at              DateTime  @updatedAt
+
+  tasks                   Task[]
+}
+
+model Task {
+  id                String    @id @default(uuid())
+  title             String
+  description       String?
+  due_date          DateTime? // Date part
+  due_time          String?   // Time part, e.g., "14:00"
+  priority          Int       @default(0) // 0: low, 1: medium, 2: high
+  category          String?
+  is_completed      Boolean   @default(false)
+  attached_alarm_id String?
+  created_at        DateTime  @default(now())
+  updated_at        DateTime  @updatedAt
+
+  alarm             Alarm?    @relation(fields: [attached_alarm_id], references: [id])
+}
+
+model Habit {
+  id                   String    @id @default(uuid())
+  title                String
+  description          String?
+  streak_count         Int       @default(0)
+  last_completed_date  DateTime?
+  created_at           DateTime  @default(now())
+  updated_at           DateTime  @updatedAt
+}
+
+model Goal {
+  id                   String    @id @default(uuid())
+  title                String
+  description          String?
+  progress_percentage  Float     @default(0.0)
+  is_achieved          Boolean   @default(false)
+  created_at           DateTime  @default(now())
+  updated_at           DateTime  @updatedAt
+}
+
+model FocusSession {
+  id               String    @id @default(uuid())
+  duration_minutes Int
+  session_type     String    // e.g., "pomodoro", "deep_focus"
+  completed_at     DateTime  @default(now())
+}
+
+model Reminder {
+  id          String   @id @default(uuid())
+  title       String
+  remind_at   DateTime
+  is_notified Boolean  @default(false)
+  created_at  DateTime @default(now())
+}

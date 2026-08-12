@@ -1,0 +1,305 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.orbit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <!-- Permissions required for Alarms, Boot, Networking, and TTS -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.EXACT_ALARM" />
+13-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:7:5-70
+13-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:7:22-67
+14    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+14-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+15-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:9:5-74
+15-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:9:22-71
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:11:5-78
+17-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:11:22-75
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:12:5-68
+18-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+19-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:13:5-75
+19-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:14:5-66
+20-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:14:22-63
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:15:5-77
+21-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:16:5-81
+22-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:17:22-74
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+24-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:18:5-92
+24-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:18:22-89
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
+25-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:19:5-93
+25-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:19:22-90
+26    <uses-permission android:name="android.permission.READ_CALENDAR" />
+26-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:20:5-72
+26-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:20:22-69
+27    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+27-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:21:5-77
+27-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:21:22-74
+28
+29    <permission
+29-->[androidx.core:core:1.13.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\457cbbbf30261470fac7e6f265e85b1e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.orbit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.13.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\457cbbbf30261470fac7e6f265e85b1e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.13.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\457cbbbf30261470fac7e6f265e85b1e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.orbit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.13.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\457cbbbf30261470fac7e6f265e85b1e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\457cbbbf30261470fac7e6f265e85b1e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:23:5-93:19
+36        android:name="com.example.orbit.OrbitApplication"
+36-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:24:9-41
+37        android:allowBackup="true"
+37-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:25:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\457cbbbf30261470fac7e6f265e85b1e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+40-->INJECTED
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:26:9-43
+42        android:label="Orbit"
+42-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:27:9-30
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:28:9-54
+44        android:supportsRtl="true"
+44-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:29:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.Orbit"
+46-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:30:9-43
+47        android:usesCleartextTraffic="true" >
+47-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:31:9-44
+48
+49        <!-- Main Activity -->
+50        <activity
+50-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:34:9-42:20
+51            android:name="com.example.orbit.ui.MainActivity"
+51-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:35:13-44
+52            android:exported="true"
+52-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:36:13-36
+53            android:theme="@style/Theme.Orbit" >
+53-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:37:13-47
+54            <intent-filter>
+54-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:38:13-41:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:39:17-69
+55-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:39:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:40:17-77
+57-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:40:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <!-- Fullscreen Alarm Ringing Activity -->
+62        <activity
+62-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:45:9-51:61
+63            android:name="com.example.orbit.ui.screens.alarm.AlarmRingingActivity"
+63-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:46:13-66
+64            android:exported="false"
+64-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:47:13-37
+65            android:launchMode="singleInstance"
+65-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:50:13-48
+66            android:showWhenLocked="true"
+66-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:48:13-42
+67            android:theme="@style/Theme.Orbit.FullScreen"
+67-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:51:13-58
+68            android:turnScreenOn="true" />
+68-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:49:13-40
+69
+70        <!-- Receivers -->
+71        <receiver
+71-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:54:9-83
+72            android:name="com.example.orbit.alarms.AlarmReceiver"
+72-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:54:19-55
+73            android:exported="false" />
+73-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:54:56-80
+74        <receiver
+74-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:56:9-61:20
+75            android:name="com.example.orbit.alarms.BootReceiver"
+75-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:56:19-54
+76            android:exported="true" >
+76-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:56:55-78
+77            <intent-filter>
+77-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:57:13-60:29
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:58:17-79
+78-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:58:25-76
+79                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+79-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:59:17-84
+79-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:59:25-81
+80            </intent-filter>
+81        </receiver>
+82
+83        <service
+83-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:63:9-66:62
+84            android:name="com.example.orbit.alarms.AlarmService"
+84-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:64:13-48
+85            android:exported="false"
+85-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:65:13-37
+86            android:foregroundServiceType="systemExempted" />
+86-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:66:13-59
+87
+88        <activity
+88-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:68:9-74:61
+89            android:name="com.example.orbit.ui.screens.focus.FocusLockActivity"
+89-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:69:13-63
+90            android:exported="false"
+90-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:70:13-37
+91            android:launchMode="singleInstance"
+91-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:73:13-48
+92            android:showWhenLocked="true"
+92-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:71:13-42
+93            android:theme="@style/Theme.Orbit.FullScreen"
+93-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:74:13-58
+94            android:turnScreenOn="true" />
+94-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:72:13-40
+95
+96        <service
+96-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:76:9-79:62
+97            android:name="com.example.orbit.services.CountdownOverlayService"
+97-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:77:13-61
+98            android:exported="false"
+98-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:78:13-37
+99            android:foregroundServiceType="systemExempted" />
+99-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:79:13-59
+100        <service
+100-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:81:9-91:19
+101            android:name="com.example.orbit.services.FocusLockAccessibilityService"
+101-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:82:13-67
+102            android:exported="true"
+102-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:84:13-36
+103            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+103-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:83:13-79
+104            <intent-filter>
+104-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:85:13-87:29
+105                <action android:name="android.accessibilityservice.AccessibilityService" />
+105-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:86:17-92
+105-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:86:25-89
+106            </intent-filter>
+107
+108            <meta-data
+108-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:88:13-90:72
+109                android:name="android.accessibilityservice"
+109-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:89:17-60
+110                android:resource="@xml/accessibility_service_config" />
+110-->C:\Projects\ALARM\android\app\src\main\AndroidManifest.xml:90:17-69
+111        </service>
+112
+113        <activity
+113-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\chait\.gradle\caches\9.5.0\transforms\5a8fe204ca0025dab0a7ae6ab0f89597\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+114            android:name="androidx.compose.ui.tooling.PreviewActivity"
+114-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\chait\.gradle\caches\9.5.0\transforms\5a8fe204ca0025dab0a7ae6ab0f89597\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+115            android:exported="true" />
+115-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\chait\.gradle\caches\9.5.0\transforms\5a8fe204ca0025dab0a7ae6ab0f89597\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+116        <activity
+116-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\chait\.gradle\caches\9.5.0\transforms\369ca8841704bb65a202b911f69639c0\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+117            android:name="androidx.activity.ComponentActivity"
+117-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\chait\.gradle\caches\9.5.0\transforms\369ca8841704bb65a202b911f69639c0\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+118            android:exported="true" />
+118-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\chait\.gradle\caches\9.5.0\transforms\369ca8841704bb65a202b911f69639c0\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+122            android:authorities="com.example.orbit.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.3.0] C:\Users\chait\.gradle\caches\9.5.0\transforms\c42c0fe63d11ce0ecc8f972027e317f8\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\chait\.gradle\caches\9.5.0\transforms\f51cdd75ea8c3d5aff480b216dd273ba\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\chait\.gradle\caches\9.5.0\transforms\f51cdd75ea8c3d5aff480b216dd273ba\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\chait\.gradle\caches\9.5.0\transforms\f51cdd75ea8c3d5aff480b216dd273ba\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+130            <meta-data
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+132                android:value="androidx.startup" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+133        </provider>
+134
+135        <service
+135-->[androidx.room:room-runtime-android:2.8.4] C:\Users\chait\.gradle\caches\9.5.0\transforms\bea9b18a5da3fcd688800f2996e25c1a\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+136            android:name="androidx.room.MultiInstanceInvalidationService"
+136-->[androidx.room:room-runtime-android:2.8.4] C:\Users\chait\.gradle\caches\9.5.0\transforms\bea9b18a5da3fcd688800f2996e25c1a\transformed\room-runtime\AndroidManifest.xml:25:13-74
+137            android:directBootAware="true"
+137-->[androidx.room:room-runtime-android:2.8.4] C:\Users\chait\.gradle\caches\9.5.0\transforms\bea9b18a5da3fcd688800f2996e25c1a\transformed\room-runtime\AndroidManifest.xml:26:13-43
+138            android:exported="false" />
+138-->[androidx.room:room-runtime-android:2.8.4] C:\Users\chait\.gradle\caches\9.5.0\transforms\bea9b18a5da3fcd688800f2996e25c1a\transformed\room-runtime\AndroidManifest.xml:27:13-37
+139
+140        <receiver
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+141            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+142            android:directBootAware="false"
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+143            android:enabled="true"
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+144            android:exported="true"
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+145            android:permission="android.permission.DUMP" >
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+147                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+150                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+153                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+156                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\chait\.gradle\caches\9.5.0\transforms\3cfbb3c1428739c74499898913769e2c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+157            </intent-filter>
+158        </receiver>
+159    </application>
+160
+161</manifest>

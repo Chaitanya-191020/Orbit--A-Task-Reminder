@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0F1523</color>
+    <string name="accessibility_service_description">Used to prevent the usage of non-allowed apps during Focus Mode.</string>
+    <string name="app_name">Orbit</string>
+    <style name="Theme.Orbit" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#38BDF8</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+    <style name="Theme.Orbit.FullScreen" parent="Theme.Orbit">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

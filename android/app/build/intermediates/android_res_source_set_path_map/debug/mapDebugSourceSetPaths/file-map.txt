@@ -1,0 +1,7 @@
+com.example.orbit.app-updated_navigation_xml-0 C:\Projects\ALARM\android\app\build\generated\updated_navigation_xml\debug
+com.example.orbit.app-packageDebugResources-1 C:\Projects\ALARM\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.orbit.app-packageDebugResources-2 C:\Projects\ALARM\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.orbit.app-debug-3 C:\Projects\ALARM\android\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.orbit.app-debug-4 C:\Projects\ALARM\android\app\src\debug\res
+com.example.orbit.app-main-5 C:\Projects\ALARM\android\app\src\main\res
+gradleHome-0 C:\Users\chait\.gradle
